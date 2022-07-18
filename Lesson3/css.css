@@ -1,0 +1,52 @@
+div{
+    /* ff - шрифт */
+    font-family: 'Ubuntu', sans-serif;
+}
+.h1{
+    /* fsz - размер текста  */
+    font-size: 40px;
+    /* ta - поставить текст влево, вправо, посередине */
+    text-align: center;
+}
+img{
+    /* width - ширина, height - высота */
+    height: 300px;
+    width: 400px;
+}
+a{
+    /* border - края */
+    /* solid - полная заливка, dashed - пунктирная залива */
+    border: solid black;
+    background-color: #000;
+    /* td - дословно декорация текста */
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 22px;
+    /* border-radius - закругления */
+    border-radius: 20px;
+    /* block - блочный элемент */
+    display: block;
+    /* margin: 0 auto - свойство, которое выставляет элементы по центру */
+    margin: 0 auto;
+    text-align: center;
+}
+/* :hover - псевдокласс для стилизации при наведении на предмет */
+a:hover{
+    background-color: red;
+    border: solid red;
+    /* transition - плавность при наведении */
+    transition: 500ms;
+}
+.content{
+    width: 400px;
+    border: solid black;
+    /* mt - поднять блок вверх */
+    margin-top: 20px;
+}
+p{
+    text-align: center;
+}
+.content:hover{
+    background-color: aqua;
+    transition: 400ms;
+}
