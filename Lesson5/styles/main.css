@@ -1,0 +1,6 @@
+main{
+    background-color: var( --main-background-color);
+    font-family: var(--main-family);
+    font-size: var(--font-family-main);
+}
+/* var() - variable */

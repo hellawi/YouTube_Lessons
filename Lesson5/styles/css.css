@@ -1,0 +1,3 @@
+/* @import url (файл, путь к нему) */
+@import url(./var.css);
+@import url(./main.css)
